@@ -108,4 +108,6 @@ public class Options {
     @Option(name = "-logFile", usage="File to write STDOUT and STDERR to. (Deprecated, use -Djava.util.logging.config.file={path}logging.properties instead)")
     public String logFile;
     
+    @Option(name = "-basicAuth", usage="-basicAuth <username>:<password>")
+    public String basicAuth
 }
